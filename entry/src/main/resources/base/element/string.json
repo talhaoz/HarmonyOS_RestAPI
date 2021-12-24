@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "str_search",
+      "value": "Search"
+    },
+    {
+      "name": "no_internet",
+      "value": "No internet available!"
+    },
+    {
+      "name": "server_is_not_available",
+      "value": "Couldn't reach server! Try again later.."
+    }
+  ]
+}

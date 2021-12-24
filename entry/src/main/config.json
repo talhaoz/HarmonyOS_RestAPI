@@ -1,0 +1,80 @@
+{
+  "app": {
+    "bundleName": "com.harmonyos.restapiexample",
+    "vendor": "harmonyos",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.harmonyos.restapiexample",
+    "name": ".MyApplication",
+    "mainAbility": "com.harmonyos.restapiexample.MainAbility",
+    "deviceType": [
+      "wearable"
+    ],
+    "metaData": {
+      "customizeData": [{
+        "extra": "",
+        "name": "hwc-theme",
+        "value": "androidhwext:style/Theme.Emui.Dark.NoActionBar"
+      }]
+    },
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "internet",
+        "usedScene": {
+          "ability": [
+            "com.harmonyos.restapiexample.MainAbility",
+            "com.harmonyos.restapiexample.slice.MainAbilitySlice"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "reason": "networkinfo",
+        "usedScene": {
+          "ability": [
+            "com.harmonyos.restapiexample.MainAbility",
+            "com.harmonyos.restapiexample.slice.MainAbilitySlice"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.VIBRATE"
+      }
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.harmonyos.restapiexample.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

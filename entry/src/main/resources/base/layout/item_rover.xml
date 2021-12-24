@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$color:dark_gray_bg"
+    ohos:bottom_padding="2vp"
+    ohos:orientation="vertical"
+    ohos:top_padding="10vp"
+    ohos:bottom_margin="2vp">
+
+    <Text
+        ohos:id="$+id:tvRoverName"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="35vp"
+        ohos:padding="2vp"
+        ohos:text="Curiosity"
+        ohos:text_alignment="left"
+        ohos:text_color="#FFFFFFFF"
+        ohos:text_size="16fp"
+        ohos:text_weight="500"
+        ohos:top_margin="14vp"
+        ohos:truncation_mode="auto_scrolling"
+        ohos:auto_scrolling_count="unlimited"/>
+
+    <Text
+        ohos:id="$+id:tvRoverLandDate"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="25vp"
+        ohos:padding="2vp"
+        ohos:text="Land Date: 21/05/2015"
+        ohos:text_alignment="left"
+        ohos:text_color="#FFC3BCBC"
+        ohos:text_size="14fp"
+        ohos:text_weight="300"
+        ohos:truncation_mode="auto_scrolling"
+        ohos:auto_scrolling_count="unlimited"/>
+
+    <Image
+        ohos:id="$+id:lineFavoriteTrains"
+        ohos:height="1"
+        ohos:width="500vp"
+        ohos:background_element="#CCFFFFFF"
+        ohos:left_margin="35vp"
+        ohos:top_margin="14vp"/>
+
+</DirectionalLayout>
